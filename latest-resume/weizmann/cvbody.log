@@ -1,0 +1,19 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.6)  8 JAN 2018 12:23
+entering extended mode
+**./cvbody.tex
+(cvbody.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.2 \pagestyle{fancy}
+                     
+? 
+! Emergency stop.
+<argument> \undefinedpagestyle 
+                               
+l.2 \pagestyle{fancy}
+                     
+End of file on the terminal!
+

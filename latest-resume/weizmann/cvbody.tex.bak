@@ -1,0 +1,658 @@
+%\thispagestyle{empty}
+\pagestyle{fancy}
+\thispagestyle{fancy}
+% \pagenumbering{gobble}
+%\fancyhead[location]{text}
+% Leave Left and Right Header empty.
+\lhead{\footnotesize \textcolor{gray}{\it Rajesh Chitnis}}
+%\chead{\footnotesize \textcolor{gray}{\url{http://www.cs.umd.edu/~rchitnis/}}}
+%\rhead{\footnotesize \textcolor{gray}{\totalpages{}/\thepage}}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize \textcolor{gray}{ A copy of this curriculum vitae, publications and other information is available
+at \\\url{http://www.wisdom.weizmann.ac.il/~chitnis/} }}
+
+
+% \pagestyle{myheadings}
+% \markboth{Arvind Agarwal}{\url{www.umiacs.umd.edu/~arvinda/}}
+% \markright{Arvind Agarwal \hfill \url{www.umiacs.umd.edu/\~arvinda/} \hfill}
+% \markright{Arvind Agarwal}
+
+%\vspace*{0.4cm}
+\begin{center}
+{\huge \bf Rajesh Chitnis} %\vspace*{0.25cm}
+\end{center}
+
+\begin{small}
+
+%===================================
+% \begin{tabbing}
+% \=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+% \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+%
+% 9332 Cherry Hill Rd Apt 202 & Phone: (801) 554-9912 \\
+% College Park, MD, 20740 &  Email: \\
+% http://www.stanford.edu/$\sim$sundaes & Alt: sundaes@cs.stanford.edu \\
+% \end{tabular*}
+% \end{tabbing}
+%
+% \vspace*{0.2cm}
+
+
+\subsection*{BASIC INFORMATION}
+{\color{gray}} \hrule \hrule \vspace{0.2cm}
+
+
+\begin{tabbing}
+\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+{\indent
+\begin{tabular*}{0.9\linewidth}{l l@{\extracolsep{\fill}}l}
+
+{\bf Current Position:} & I-CORE Postdoctoral Fellow at Weizmann Institute, Israel & \\
+%& Department of Computer Science  & \\
+%& Weizmann Institute, Rehovot, Israel & \\
+\\
+\bf{Contact Information:} &Room 205, Ziskind Building, \href{http://www.wisdom.weizmann.ac.il/}{Faculty of Mathematics and Computer Science}\\
+                          &\href{http://www.weizmann.ac.il/}{Weizmann Institute of Science}, Rehovot 7610001, Israel\\
+                          &\texttt{Cell:} +958 58-6641459\\
+                          &\texttt{Email: }\href{mailto:rajeshchitnis@gmail.com}{{rajeshchitnis@gmail.com}}
+%&\href{http://www.wisdom.weizmann.ac.il/}{Faculty of Mathematics and Computer Science},
+%& \textit{Cell:} +958 58-6641459\\
+		     	  %& \href{http://www.umd.edu/}{The Weizmann Institute of Science} 		      &  \textit{Email: }\href{mailto:rajeshchitnis@gmail.com}{{rajeshchitnis@gmail.com}} \\
+		          %& Room 205, Ziskind Building, Rehovot, Israel 7610001            				      %& %\textit{Web: }\href{http://www.wisdom.weizmann.ac.il/~chitnis/}{{{http://www.wisdom.weizmann.ac.il/$\sim$chitnis/}}}\\
+%		          &  					      &
+\end{tabular*}
+}
+\end{tabbing}
+
+%==========================================
+
+%\vspace{0.10cm}
+
+%\subsection*{SUMMARY}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%\begin{itemize}
+%\item Interested in a full time position in the fields machine learning and data mining.
+%\item Have research experience in both, academic and industrial research --- includes 6 years of graduate work, and two summer internships at IBM T J Watson Research Center NY. During my internships, I worked on Watson, IBM's famous question answering system.
+%\item Experience in problems like classification, regression, search/ranking, multitask learning, semisupervised learning, visualization, dimensionality reduction, multidimensional scaling, graph embedding, network localization etc.
+%\item Published papers at conferences like KDD, NIPS, AISTATS, CIKM, IJCAI.
+%\item Graduation expected in August 2012
+%\end{itemize}
+%
+%%==========================================
+
+%\vspace{0.10cm}
+
+\subsection*{RESEARCH INTERESTS}
+{\color{gray}} \hrule
+\hrule
+\vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Fixed-Parameter Algorithms, Approximation Algorithms, Algorithmic Game Theory, Structural Graph Theory
+
+%\begin{itemize}
+%\item Fixed-Parameter Algorithms
+%\item Algorithmic Game Theory
+%\item Approximation Algorithms
+%\end{itemize}
+
+%\begin{list}{}{}
+%\item
+%\begin{description}{}
+%\item {\bf Research Areas:} Machine Learning, Data Mining
+%\item {\bf Approaches/Methods:} Large-scale Algorithms, Matrix and Graph based Algorithms, Distance Geometry based Algorithms, Kernel Methods
+%\item {\bf Application Areas:} Text Analysis, Recommendation Systems, Social Computing, Information Retrieval
+%\end{description}
+%\end{list}
+
+
+
+%==========================================
+
+%\vspace{0.10cm}
+
+\subsection*{EDUCATION}
+{\color{gray}} \hrule \hrule \vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{list}{}{}
+
+\begin{itemize}
+
+\item
+
+%\noindent
+\href{www.wisdom.weizmann.ac.il}{\textbf{Weizmann Institute of Science}}, Rehovot, Israel\\
+\href{http://www.icore-algo.org.il/}{I-CORE} Postdoctoral Fellow  \hfill \textbf{September '14 - present}\\
+\textbf{Mentors}: \href{http://www.wisdom.weizmann.ac.il/~robi/} {Prof. Robi Krauthgamer} and \href{http://www.wisdom.weizmann.ac.il/~feige/}{Prof. Uri Feige}
+
+\vspace{0.1in}
+
+\item
+
+\noindent
+\href{http://www.umd.edu/}{\textbf{University of Maryland}}, College Park, MD USA\\
+Doctor of Philosophy, Computer Science  \hfill \textbf{August '10 - December '14}\\
+\textbf{Title of Dissertation}: \href{http://www.wisdom.weizmann.ac.il/~chitnis/thesis.pdf}{Directed Graphs: Fixed-Parameter Tractability and Beyond}\\
+\textbf{Larry S. Davis Doctoral Dissertation Award}\\
+\textbf{Adviser}: \href{http://www.cs.umd.edu/~hajiagha/} {Prof. MohammadTaghi Hajiaghayi}
+%and nominated by University of Maryland for ACM Doctoral Dissertation Award
+%\begin{itemize}
+%\item Larry S. Davis Doctoral Dissertation Award
+%\item Nominated by University of Maryland for ACM Doctoral Dissertation Award
+%\end{itemize}
+
+\vspace{0.1in}
+
+%Masters in Computer Science \hfill \textbf{Fall 2010 - Spring 2013}\\
+%Adviser: \href{http://www.cs.umd.edu/~hajiagha/} {Prof. MohammadTaghi Hajiaghayi} \\
+%Topic: Geometric Methods in Machine Learning
+
+\item \noindent
+\href{http://www.umd.edu/}{\textbf{University of Maryland}}, College Park, MD USA\\
+Masters in Computer Science \hfill \textbf{August '10 - May '13}
+
+\vspace{0.1in}
+
+
+%\vspace{0.1in}
+\item
+\noindent
+\href{http://www.cmi.ac.in/}{\textbf{Chennai Mathematical Institute}}, Chennai, INDIA\\
+Bachelor of Science (Honors) \hfill \textbf{August '07 - April '10}\\
+Subjects: Mathematics and Computer Science
+%Adviser: \href{http://www.umiacs.umd.edu/~hal/} {Prof. Hal Daum\'e III}, GPA: $3.88/4.0$
+
+%\vspace{0.2in}
+%\noindent
+%\href{http://www.bits-pilani.ac.in/}{\textbf{Birla Institute of Technology \& Science}}, Pilani, India\\
+%Bachelor of Engineering (Honors), {Mechanical Engineering} \hfill \textbf{Spring 2004}\\
+%GPA: Overall $3.69/4.0$, Major $3.87/4.0$
+
+\end{itemize}
+%\end{list}
+
+
+
+
+\subsection*{RESEARCH EXPERIENCE}
+{\color{gray}} \hrule \hrule \vspace{0.2cm}
+
+%\begin{list}{}{}
+\begin{itemize}
+
+%\item
+%\href{http://www.cs.umd.edu}{\textbf{University of Maryland}}, College Park, MD, USA\\
+%%\textit{Research Assistant}  \hfill
+%\textbf{Fall 2010, Spring 2011, Fall 2011-present}\\
+%Adviser: MohammadTaghi Hajiaghayi \\
+%%Worked on research problems related to {\bf kernel methods}, {\bf graph embedding}, and {\bf large-scale sensor network
+%%localization}.
+%\begin{itemize}
+% \item In kernel methods, I developed a set of efficient kernels called ``generative kernels'' driven by the generative
+%     process of the data, and used them in a supervised classification task. These kernels bring in the generative power
+%     into discriminative methods.  In addition, these kernels are problem specific, giving user a principled way of
+%     choosing kernels, and therefore, eliminating the process of using arbitrary kernels.
+% \item In graph embedding problem, I developed a method to determine the location of the nodes in the graph given their
+%     partial distances from eachother. This is an important problem  for any graph-based task e.g., {\bf social network},
+%     where processing on the graph (e.g. visualization, clustering) requires the physical location of the nodes. I also
+%     extended this problem for network localization, where additional complexity is introduced because of the fixed nodes
+%     i.e., anchors.
+%\end{itemize}
+
+\item Internship at \href{http://www.ttic.edu/}{\textbf{Toyota Technological Institute, Chicago, USA}} \hfill \textbf{Summer '13}\\
+Mentor: Prof. Julia Chuzhoy
+
+\vspace{0.1in}
+
+\item Research Visit to \href{http://www.uib.no/rg/algo}{\textbf{University of Bergen, Norway}} \hfill \textbf{August '12}\\
+Host: Prof. Fedor Fomin
+%Analyzed some problems in algorithmic game theory via the framework of parameterized complexity. Work in progress.
+
+\vspace{0.1in}
+
+\item Research Visit to \href{http://www.sztaki.hu/?en}{\textbf{MTA SZTAKI, Hungary}} \hfill \textbf{June - July '12}\\
+Host: Prof. D\'aniel Marx
+%Analyzed the fixed-parameter tractability of some constraint satisfaction problems via the framework of parameterized
+%complexity. Work in progress.
+
+\vspace{0.1in}
+
+\item Internship at \href{http://www.imsc.res.in/}{\textbf{Institute of Mathematical Sciences, India}} \hfill \textbf{Summer '10}\\
+Mentor: Prof. Saket Saurabh
+%\begin{itemize}
+% \item Developed a {\it semi-supervised} learning framework by building a generative/discriminative hybrid model.
+% \item Developed a multitask learning framework suitable for scenario when there are thousands of tasks --- a situation
+%     often encountered in recommendation system (considering each user a task).
+% \item Developed an efficient framework for generalized multidimensional scaling, which can be used for dimensionality
+%     reduction, visualization, or in general for distance embedding.
+%\end{itemize}
+
+\vspace{0.1in}
+
+\item Internship at \href{http://www.csa.iisc.ernet.in/}{\textbf{Indian Institute of Science, India}} \hfill \textbf{Summer '09}\\
+Mentor: Prof. Sunil Chandran
+%Worked on \href{http://www.research.ibm.com/deepqa/}{\bf Watson} system, in particular, on the
+%soft-matching of dependency relations to find the relevancy of an answer to a given question.
+
+
+%\end{list}
+\end{itemize}
+
+
+
+
+
+\subsection*{HONORS AND AWARDS}
+{\color{gray}} \hrule
+\hrule
+\vspace{0.3cm}
+
+
+\begin{itemize}
+\item \$48,000 Simons Award for Graduate Students in Theoretical Computer Science (2013-15)
+\item Larry S. Davis Doctoral Dissertation Award for PhD thesis from University of Maryland. Also nominated for ACM Doctoral Dissertation Award
+\item College of Computer, Mathematical, \& Natural Sciences (CMNS) Board of Visitor's Award for Outstanding Graduate Student at University of Maryland. Awarded to 2 students out of the 10 departments in the college.
+\item Best Paper Award in ESA 2013
+\item Gannon Award for Outstanding Graduate Students by University of Maryland (2013)
+\item International Research Fellowship by University of Maryland for research visits in Summer 2012.
+\item Dean's Fellowship by University of Maryland (2010-12).
+\item Undergraduate scholarship by \href{http://www.nbhm.dae.gov.in/}{Indian National Board for Higher Mathematics} (2007-10)
+%\item Erd{\"o}s number is 3 by the following path : Paul Erd{\"o}s $\rightarrow$ Noga Alon (Tel Aviv) $\rightarrow$
+%    MohammadTaghi Hajiaghayi (Maryland) $\rightarrow$ Rajesh Chitnis.
+%\item Qualified the \href{http://www.nbhm.dae.gov.in/olympiad.html}{Indian National Math Olympiad} in 10th grade and twice
+%    attended the training camp for selection of Indian team for the International Mathematics Olympiad.
+%\item Travel Grants for AAAI '11, FOCS '11, SODA '12, STOC '12, FOCS '12.
+%\item Travel Grant for \href{http://frontiers.epfl.ch/}{Algorithmic Frontiers Workshop} in June 2012.
+%\item Full tuition waiver and undergraduate scholarship by \href{www.cmi.ac.in}{Chennai Mathematical Institute}.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection*{PUBLICATIONS}
+{\color{gray}} \hrule \hrule \vspace{0.2cm}
+
+%Each paper is listed only once, even if it appears in multiple versions.
+
+
+\subsubsection*{Journal Publications}
+\begin{enumerate}{}{}
+\item \textbf{On the SIG dimension of trees under the $L_{\infty}$ metric}. In \emph{Graphs and Combinatorics} 29(4): 773-794 (2013). Joint work with L. Sunil Chandran and Ramanjit Kumar.
+
+\item \textbf{Fixed-Parameter Tractability of Directed Multiway Cut Parameterized by Size of the Cutset}\\
+      In \emph{SIAM Journal of Computing} 42(4): 1674-1696. (2013). Joint work with MohammadTaghi Hajiaghayi and D\'aniel Marx.
+
+\item \textbf{Directed Subset Feedback Vertex Set is FPT}. To appear in \emph{ACM Transactions on Algorithms}. Joint work with Marek Cygan, MohammadTaghi Hajiaghayi and D\'aniel Marx.
+\end{enumerate}
+
+%\vspace{0.1cm}
+\subsubsection*{Conference Publications}
+
+%\paragraph{\small Under Reviewing Process}
+%\begin{list}{}{}
+%%\item {\bf Agarwal, A.} and Phillips, J. M. and Daum\'e III, H. and Venkatasubramanian S., Tracking Moving Sensors using Sensor Network Localization.
+%%	\emph{In preparation}.
+%
+%    \item {\bf Agarwal, A.} and Phillips, J. M. and Daum\'e III, H. and Venkatasubramanian S., Sensor Network Localization for Moving Sensors.
+%	\emph{Under review}.
+%
+%    \item {\bf Agarwal, A.} and Phillips, J. M. and Daum\'e III, H. and Venkatasubramanian S., Adaptive Sampling for Large-Data MDS.
+%	\emph{Under review}.
+%
+%
+%\end{list}
+%
+
+%\paragraph{\small{Published Papers}}
+
+\begin{enumerate}{}{}
+    \item \textbf{Parameterized Streaming Algorithms for Vertex Cover}. In \emph{SODA 2015}. Joint work with Graham Cormode, MohammadTaghi Hajiaghayi and Morteza Monemizadeh.
+
+    \item \textbf{A Tight Algorithm for Strongly Connected Steiner Subgraph On Two Terminals With Demands}. In \emph{IPEC 2014}. Joint work with Hossein Esfandiari, MohammadTaghi Hajiaghayi, Rohit Khandekar, Guy Kortsarz and Saeed Seddighin.
+
+    \item \textbf{Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions)}. In \emph{SODA 2014}. Joint work with MohammadTaghi Hajiaghayi and Daniel Marx.
+
+    \item \textbf{Parameterized Complexity of the Anchored $k$-Core Problem for Directed Graphs}. In \emph{FSTTCS 2013}. Joint work with Fedor Fomin and Petr Golovach.
+
+    \item \textbf{Faster Exact Algorithms for  Some Terminal Set Problems}. In \emph{IPEC 2013}. Joint work with Fedor Fomin, Daniel Lokshtanov, Pranabendu Misra, M.S. Ramanujan and Saket Saurabh.
+
+    \item \textbf{Fixed-Parameter and Approximation Algorithms: A New Look}. In \emph{IPEC 2013}. Joint work with MohammadTaghi Hajiaghayi and Guy Kortsarz.
+
+     \item \textbf{List $H$-Coloring a Graph by Removing a Few Vertices}. In \emph{ESA 2013}. Joint work with Laszlo Egri and D\'aniel Marx.
+
+    \item \textbf{Preventing Unraveling in Social Networks Gets Harder}. In \emph{AAAI 2013}. Joint work with Fedor Fomin and Petr Golovach.
+
+    \item \textbf{A Game-Theoretic Model for the DARPA Network Challenge}. In \emph{SPAA 2013} (short paper). Also appeared in \emph{Workshop on Risk Aversion in Algorithmic Game Theory and Mechanism Design}. Joint work with MohammadTaghi Hajiaghayi, Jonathan Katz and Koyel Mukherjee.
+
+    \item \textbf{Designing FPT algorithms for Cut Problems using Randomized Contractions}. In \emph{FOCS 2012}. Joint work with Marek Cygan, MohammadTaghi Hajiaghayi, Marcin Pilipczuk and Michal Pilipczuk.
+
+    \item \textbf{Directed Subset Feedback Vertex Set is FPT}. In \emph{ICALP 2012}. Joint work with Marek Cygan, MohammadTaghi Hajiaghayi and D\'aniel Marx.
+
+    \item \textbf{Fixed-Parameter Tractability of Directed Multiway Cut Parameterized by Size of the Cutset}. In \emph{SODA 2012}. Joint work with MohammadTaghi Hajiaghayi and D\'aniel Marx.
+
+    \item \textbf{Parameterized Complexity of Problems in Coalitional Resource Games}. In \emph{AAAI 2011}. Joint work with MohammadTaghi Hajiaghayi and Vahid Liaghat.
+
+    \item \textbf{Parameterized Algorithms for Boxicity}. In \emph{ISAAC 2010}. Joint work with Abhijin Adiga and Saket Saurabh.
+\end{enumerate}
+
+%%\vspace{0.1cm}
+%\subsubsection*{Manuscripts}
+%\begin{enumerate}{}{}
+%      \item \textbf{Parameterized Streaming Algorithms for Vertex Cover}. Joint work with Graham Cormode, MohammadTaghi Hajiaghayi and Morteza Monemizadeh.
+      %\emph{Submitted to ICALP 2013}\\
+      %Joint work with Fedor Fomin and Petr Golovach.
+%
+%      %\item \textbf{Approximation Algorithms for Deadline TSP} \\
+%%      \emph{To be submitted to APPROX 2013}\\
+%%      joint work with Catalin-Stefan Tiseanu and Anshul Sawant.
+%%
+%%      \item \textbf{Optimal Exact Algorithms for Some Connectivity Problems in Directed Graphs} \\
+%%      \emph{To be submitted to FOCS 2013}\\
+%%      joint work with MohammadTaghi Hajiaghayi and D\'aniel Marx.
+%\end{enumerate}
+
+
+
+%\newpage
+%\vspace{0.1cm}
+
+
+
+%\vspace{0.1cm}
+
+%\vspace{0.1cm}
+
+\subsection*{COLLABORATORS}
+%{\color{gray}}
+\hrule
+\hrule
+\vspace{0.3cm}
+
+Abhijin Adiga, L. Sunil Chandran, Graham Cormode, Marek Cygan, Laszlo Egri, Hossein Esfandiari, Fedor V. Fomin, Petr Golovach, MohammadTaghi Hajiaghayi, Jonathan Katz, Rohit Khandekar, Guy Kortsarz, Ramanjit Kumar, Vahid Liaghat, Daniel Lokshtanov, D\'aniel Marx, Pranabendu Misra, Morteza Monemizadeh, Koyel Mukherjee, Marcin Pilipczuk, Michal Pilipczuk, M.S. Ramanujan, Saket Saurabh, Saeed Seddighin
+
+%\vspace{0.1cm}
+%\subsection*{PROFESSIONAL EXPERIENCE}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%
+%\begin{list}{}{}
+%\item
+%\href{http://www.cognizant.com/html/home.asp}{\textbf{Cognizant Technology Solutions}}, Kolkata, India\\
+%\textit{Program Analyst}  \hfill \textbf{Jul 2004 -- Dec 2005}\\
+%Provided software solutions for airlines industry.
+%\end{list}
+
+
+\subsection*{SELECTED TALKS}
+%{\color{gray}}
+\hrule
+\hrule
+\vspace{0.3cm}
+
+\textbf{Fixed-Parameter Tractability of Directed Multiway Cut Parameterized by Size of the Cutset}
+\begin{itemize}
+\item CATS Seminar at University of Maryland - Dec '11
+\item Institute of Mathematical Sciences, India - January '12
+\item SODA at Kyoto, Japan - January '12
+\item University of Bergen, Norway - August '12
+%\item Erd{\"o}s number is 3 by the following path : Paul Erd{\"o}s $\rightarrow$ Noga Alon (Tel Aviv) $\rightarrow$
+%    MohammadTaghi Hajiaghayi (Maryland) $\rightarrow$ Rajesh Chitnis.
+%\item Qualified the \href{http://www.nbhm.dae.gov.in/olympiad.html}{Indian National Math Olympiad} in 10th grade and twice
+%    attended the training camp for selection of Indian team for the International Mathematics Olympiad.
+%\item Travel Grants for AAAI '11, FOCS '11, SODA '12, STOC '12, FOCS '12.
+%\item Travel Grant for \href{http://frontiers.epfl.ch/}{Algorithmic Frontiers Workshop} in June 2012.
+%\item Full tuition waiver and undergraduate scholarship by \href{www.cmi.ac.in}{Chennai Mathematical Institute}.
+\end{itemize}
+\vspace{0.2cm}
+
+\noindent\textbf{Fixed-Parameter and Approximation Algorithms: A New Look}
+\begin{itemize}
+\item CATS Seminar at University of Maryland - March '13
+\item Dagstuhl Seminar 13121, Germany - March '13
+\item IPEC at Sophia Antipolis, France - September '13
+\item Weizmann Theory Lunch - November '14
+%\item Erd{\"o}s number is 3 by the following path : Paul Erd{\"o}s $\rightarrow$ Noga Alon (Tel Aviv) $\rightarrow$
+%    MohammadTaghi Hajiaghayi (Maryland) $\rightarrow$ Rajesh Chitnis.
+%\item Qualified the \href{http://www.nbhm.dae.gov.in/olympiad.html}{Indian National Math Olympiad} in 10th grade and twice
+%    attended the training camp for selection of Indian team for the International Mathematics Olympiad.
+%\item Travel Grants for AAAI '11, FOCS '11, SODA '12, STOC '12, FOCS '12.
+%\item Travel Grant for \href{http://frontiers.epfl.ch/}{Algorithmic Frontiers Workshop} in June 2012.
+%\item Full tuition waiver and undergraduate scholarship by \href{www.cmi.ac.in}{Chennai Mathematical Institute}.
+\end{itemize}
+
+%\vspace{0.1cm}
+
+\subsection*{TEACHING EXPERIENCE}
+%{\color{gray}}
+\hrule
+\hrule
+\vspace{0.2cm}
+
+\begin{itemize}
+\item Teaching Assistant for \href{http://www.cs.umd.edu/~hajiagha/AGT10/AGT14.html}{CMSC 858F - Algorithmic Game Theory} in Spring 2014\\
+      Duties included grading homeworks.
+\item Teaching Assistant for \href{http://www.cs.umd.edu/class/spring2013/cmsc351/}{CMSC 351 - Introduction to Algorithms} in Spring 2013\\
+      Duties included preparing homeworks, holding office hours, grading homeworks and exams.
+\item Teaching Assistant for \href{http://www.cs.umd.edu/~vliaghat/2012cmsc351}{CMSC 351 - Introduction to Algorithms} in Spring 2012\\
+      Duties included preparing lecture notes and grading exams.
+\item Teaching Assistant for \href{http://www.cs.umd.edu/~gasarch/250/S11/S11.html}{CMSC 250 - Discrete Structures} in Spring 2011\\
+      Duties included conducting discussion sections, holding office hours, grading homeworks and exams.
+\item Teaching Assistant for \href{http://www.cs.umd.edu/class/fall2010/cmsc451/}{CMSC 451 - Algorithms} in Fall 2010\\
+      Duties included holding office hours, grading homeworks and exams.
+\end{itemize}
+
+% \newpage
+
+% List of papers and publications and patents ?
+%===========================================
+%\vspace{0.1cm}
+
+
+
+% %\vspace{0.1cm}
+% \subsection*{TALKS}
+% \hrule
+% \vspace{0.2cm}
+% \item Invited talk at International Joint Conference on Artificial Intelligence, (IJCAI) 2011.
+
+%\vspace{0.1cm}
+
+
+
+
+
+
+\subsection*{PROFESSIONAL SERVICE}
+%{\color{gray}}
+\hrule
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+\item {\bf Reviewer for Conferences:} SODA, ICALP, STACS, ESA, FSTTCS, SPAA, SWAT, WINE, WALCOM, SOFSEM.
+
+\item {\bf Reviewer for Journals:} ACM Transactions on Algorithms, SIAM Journal on Discrete Mathematics, Theoretical Computer Science, Combinatorica, Journal of Discrete Algorithms,
+    Networks, Information and Computation, INFORMS Journal on Computing, ACM Transactions on Computation Theory.
+
+\item Member of Admissions Committee at Department of Computer Science, University of Maryland for Fall '13 and Fall '14 applicants.
+\end{itemize}
+
+
+\subsection*{RELEVANT GRADUATE COURSEWORK}
+%{\color{gray}}
+\hrule \hrule \vspace{0.2cm}
+{\bf University of Maryland, USA:}\\
+Network Design Foundations, Models for Socio-Technical Networks, Algorithmic
+     Game Theory, Introduction to Game Theory, Introduction to Cryptography, Computational Geometry, Privacy Enhancing
+     Technologies: From Theory to Practice, Ramsey Theory and its ``Applications", Numerical Analysis.\\
+
+\vspace{0.2cm}
+
+\noindent{\bf Institute of Mathematical Sciences, INDIA:} \emph{(Taken as an undergraduate)}\\
+Parameterized Complexity, Approximation Algorithms, Advanced Graph Theory, Computational Complexity, Matchings in Graphs.
+
+%\subsection*{RELEVANT GRADUATE COURSEWORK}
+%{\color{gray}} \hrule \hrule \vspace{0.2cm}
+%\begin{list}{}{}
+%\item
+%\begin{description}{}
+% \item [] {\bf University of Maryland, USA:} Network Design Foundations, Models for Socio-Technical Networks, Algorithmic
+%     Game Theory, Introduction to Game Theory, Introduction to Cryptography, Computational Geometry, Privacy Enhancing
+%     Technologies: From Theory to Practice, Ramsey Theory and its ``Applications", Numerical Analysis.
+% \item [] {\bf Institute of Mathematical Sciences, INDIA:} Parameterized Complexity, Approximation Algorithms, Advanced
+%     Graph Theory, Computational Complexity, Matchings in Graphs.
+%\end{description}
+%\end{list}
+
+
+
+
+%\subsection*{TEACHING EXPERIENCE}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%
+%\begin{list}{}{}
+%\item Teaching Assistant for \href{http://www.cs.umd.edu/class/spring2013/cmsc351/}{CMSC 351 - Introduction to Algorithms} in Spring 2013\\
+%      Duties include preparing homeworks, holding office hours, grading homeworks and exams.
+%\item Teaching Assistant for \href{http://www.cs.umd.edu/~vliaghat/2012cmsc351}{CMSC 351 - Introduction to Algorithms} in Spring 2012\\
+%      Duties included preparing lecture notes and grading exams.
+%\item Teaching Assistant for \href{http://www.cs.umd.edu/~gasarch/250/S11/S11.html}{CMSC 250 - Discrete Structures} in Spring 2011\\
+%      Duties included conducting discussion sections, holding office hours, grading homeworks and exams.
+%\item Teaching Assistant for \href{http://www.cs.umd.edu/class/fall2010/cmsc451/}{CMSC 451 - Algorithms} in Fall 2010\\
+%      Duties included holding office hours, grading homeworks and exams.
+%\end{list}
+
+% \newpage
+
+% List of papers and publications and patents ?
+%===========================================
+%\vspace{0.1cm}
+
+
+
+% %\vspace{0.1cm}
+% \subsection*{TALKS}
+% \hrule
+% \vspace{0.2cm}
+% \item Invited talk at International Joint Conference on Artificial Intelligence, (IJCAI) 2011.
+
+%\vspace{0.1cm}
+
+
+
+
+
+
+%\subsection*{PROFESSIONAL SERVICE}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%\begin{list}{}{}
+%\item {\bf Reviewer for:} ICALP, ESA, SPAA, FSTTCS, SWAT, WINE, Combinatorica, Theoretical Computer Science, Journal of Discrete Algorithms,
+%    Networks, Information and Computation, INFORMS Journal on Computing.
+%\end{list}
+
+
+%\subsection*{PROGRAMMING LANGUAGES/TOOLS}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%\begin{list}{}{}
+%\item C, MATLAB, Java, Hadoop, Perl, Python, WEKA
+%\end{list}
+
+
+
+
+
+% \newpage
+
+\vspace{0.1cm}
+%\begin{multicols}{2} [\subsection*{REFERENCES}]
+
+%\subsection*{REFERENCES}
+%{\color{gray}} \hrule
+%\hrule
+%\vspace{0.2cm}
+%
+%
+%\subsubsection*{From Academia}
+%\begin{footnotesize}
+%
+%\begin{multicols}{2}
+%\noindent
+%Prof. Hal Daum\'e III \\
+%Assistant Professor \\
+%Department of Computer Science\\
+%University of Maryland\\
+%College Park, Maryland, 20740\\
+%Phone: (301) 405-1073 \\
+%hal@umiacs.umd.edu \\
+%
+%\noindent
+%Prof. Suresh Venkatasubramanian\\
+%Assistant Professor \\
+%School of Computing\\
+%University of Utah\\
+%Salt Lake City, Utah, 84112\\
+%Phone: (801) 581-8233 \\
+%suresh@cs.utah.edu \\
+%
+%\columnbreak
+%
+%\noindent
+%Prof. Jeff M Phillips\\
+%Assistant Professor \\
+%School of Computing\\
+%University of Utah\\
+%Salt Lake City, Utah, 84112\\
+%Phone: (801) 585-7775 \\
+%jeffp@cs.utah.edu \\
+
+
+%\end{multicols}
+
+%\subsubsection*{From Industry}
+%\begin{multicols}{2}
+%
+%\noindent
+%Dr. Hema Raghavan\\
+%Research Scientist\\
+%IBM Thomas J. Watson Research Center  \\
+%Yorktown Heights, NY 10532 \\
+%Phone: (914) 945-41213 \\
+%hraghav@us.ibm.com \\
+%
+% \columnbreak
+%\noindent
+%Dr. Prem Melville\\
+%Research Scientist\\
+%IBM Thomas J. Watson Research Center  \\
+%Yorktown Heights, NY 10532 \\
+%pmelvil@us.ibm.com\\
+
+%\end{multicols}
+
+%\end{footnotesize}
+\end{small}
