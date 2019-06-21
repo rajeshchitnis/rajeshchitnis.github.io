@@ -11,8 +11,36 @@
 </head>
 
 
-<body>
-$\ell_0$ norm
+<title>
+List of known results on FPT+Approximation
+<\title>
 
-	</body>
+
+<body>
+
+
+<ul>
+
+<li>
+<p><b>Strongly Connected Steiner Subgraph:</b> Given a digraph $G=(V,E)$ and a set of terminals $T=\{t_1, t_2, \ldots, t_k\}$ is there a set $H\subseteq V$ of size $\leq p$ such that $G[H]$ has an $t_i \leadsto t_j$ path for each $1\leq i\neq j\leq p$ </p> <br>
+<b>Algorithm:</b>  $2$-approximation in $3^{k}\cdot n^{O(1)}$ time <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-03898-8_11">  [Reference]</a> <br>
+<b>Lower Bound:</b> No $(2-\epsilon)$-approximation in FPT time under Gap-ETH <a href="https://arxiv.org/abs/1707.06499">  [Reference]</a> <br>
+</li>
+
+
+
+<li>
+<p><b>Steiner Orientation</b>: Given a mixed graph $G=(V,E)$ and a set of terminal pairs $T=\{(s_i, t_i)\ :\ i\in [k]\}$ is there an orientation of the edges such that in the resulting orientation there is a directed $s_i \leadsto t_i$ path for each $i\in [k]$ </p> <br>
+<b>Algorithm:</b>   <br>
+<b>Lower Bound:</b> No $(\frac{19}{20}+\epsilon)$-approximation in $f(k)\cdot n^{O(1)}$ time under Gap-ETH, even if the input graph is planar <a href="https://link.springer.com/article/10.1007/s00453-019-00580-x">  [Reference]</a> <br>
+</li>
+
+
+
+</ul>
+
+
+
+
+</body>
 </html>
