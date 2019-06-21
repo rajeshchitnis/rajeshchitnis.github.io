@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Problem 1: Fast $L_1$ Difference - Open Problems in Sublinear Algorithms</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Open_Problems","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":1000,"wgPageName":"Open_Problems:1","wgTitle":"1","wgCurRevisionId":608,"wgRevisionId":608,"wgArticleId":3,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Open_Problems:1","wgRelevantArticleId":3,"wgRequestId":"XQ1FVdLFsxXrco0F3n1wbgAAAAg","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMjSize":100});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0h32f9i",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.MjLocal","ext.MjLocal.mobile","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.31.2"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/index.php?title=Open_Problems:1&amp;action=edit"/>
+<link rel="edit" title="Edit" href="/index.php?title=Open_Problems:1&amp;action=edit"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Open Problems in Sublinear Algorithms (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://sublinear.info/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Open Problems in Sublinear Algorithms Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-1000 ns-subject page-Open_Problems_1 rootpage-Open_Problems_1 skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Problem 1: Fast $L_1$ Difference</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Open Problems in Sublinear Algorithms</div>				<div id="contentSub"></div>
+								<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="infobox" cellspacing="5" style="width:22em;"><tbody><tr class=""><th scope="row" style="text-align:left;">Suggested by</th>
+    <td class="" style="">
+Graham Cormode</td></tr><tr class=""><th scope="row" style="text-align:left;">Source</th>
+    <td class="" style="">
+<a href="/index.php?title=Workshops:Kanpur_2006" title="Workshops:Kanpur 2006">Kanpur 2006</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Short link</th>
+    <td class="" style="">
+<a rel="nofollow" class="external free" href="https://sublinear.info/1">https://sublinear.info/1</a></td></tr>
+</tbody></table>
+<p>In data streaming, the focus is often on the space complexity of solving particular problems. It turns out that, in practice, when processing massive streams online, time efficiency is just as important, if not more so, than space usage. For many aggregates, such as $L_2$, $F_0$, quantiles, heavy hitters and so on, not only are the best known solutions optimal or nearly optimal in space, they also turn out to be very time efficient. 
+Indeed, for many problems it seems that some solutions are known which require very little time to process each update in the stream. One notable exception is the problem of computing the $L_1$ difference 
+between two vectors specified by streams. The well-known way to do this involves using 1-stable distributions (the Cauchy distribution), and tracking the inner product of each vector with a 
+pseudo-random vector whose entries are each drawn from a Cauchy 
+distribution. 
+However, to get sufficient accuracy requires tracking a large number of 
+independent inner-products, which means each update can be quite costly. 
+</p><p>The main open question therefore is to study the time complexity of $L_1$ 
+difference computations.  
+Two possible directions suggest themselves: 
+</p>
+<ul><li>The algorithms of Indyk and Woodruff &#91;<a href="/index.php?title=Bibliography#IndykW-05" title="Bibliography">IndykW-05</a>&#93;, and simplifications by Bhuvanagiri et al. &#91;<a href="/index.php?title=Bibliography#BhuvanagiriGKS-06" title="Bibliography">BhuvanagiriGKS-06</a>&#93; give improved bounds for $F_k$ computations, $k&gt;2$, based on estimating large frequencies individually and removing; this approach has been extended to quantities such as entropy &#91;<a href="/index.php?title=Bibliography#BhuvanagiriG-06" title="Bibliography">BhuvanagiriG-06</a>&#93;.  Can it also apply to $L_1$?</li>
+<li>Recent work &#91;<a href="/index.php?title=Bibliography#LiHC-06" title="Bibliography">LiHC-06</a>&#93; has studied sparse random projections for $L_2$.  Follow up work &#91;<a href="/index.php?title=Bibliography#Li-06" title="Bibliography">Li-06</a>&#93; has extended this to sparse projections using stable distributions. What time bounds does this imply for $(\epsilon,\delta)$-approximation of $L_1$ distance?</li></ul>
+<p>A more general open question arises.  So far, there has been considerable 
+success in proving space lower bounds for data stream computations using 
+tools from communication complexity and cell probe model.  Is it possible 
+to give non-trivial time lower bounds for update cost (either worst case 
+or amortized) on data streams?  Note that the difference between an $O(1)$ 
+and $O(\epsilon^{-2} \log^3 n)$ algorithm for processing each update in a 
+stream translates into the difference between an $O(n)$ and $O(n\epsilon^{-2}
+\log^3 n)$ algorithm, which might be considered only a small 
+difference in traditional algorithms.
+</p>
+	</body>
+</html>
