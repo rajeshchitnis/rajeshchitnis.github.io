@@ -53,7 +53,7 @@
 <li>
 <b>Tree-cut width:</b> Is the tree-cut width of a given undirected graph \(\leq w\)? See <a href="">  [W15]</a> for a definition of tree-cut width.
 <br>
-<b>Algorithm:</b> \(2\)-approximation in \(2^{w^{2}\cdot \log w}\cdot n^{2}\) time <a href="">  [KOPST18]</a> <br>
+<b>Algorithm:</b> \(2\)-approximation in \(2^{O(w^{2}\cdot \log w)}\cdot n^{2}\) time <a href="">  [KOPST18]</a> <br>
 <b>Lower Bound:</b> None! It is known that there is a (non-constructive) FPT algorithm for tree-cut width parameterized by \(w\)<br>
 </li>
 
@@ -68,13 +68,30 @@
 <br>
 
 <li>
+<b>Directed Multitcut with 4 pairs:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ 1\leq i\leq 4\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[V\setminus H]\) has no \(s_i \leadsto t_i\) path for each \(1\leq i\leq 4\) <br>
+<b>Algorithm:</b> \(2\)-approximation in \(2^{O(p^2)}\cdot n^{O(1)}\) time  <a href="">  [CF19]</a> <br>
+<b>Lower Bound:</b> No \((59/58-\epsilon)\)-approximation (for any \(\epsilon>0\)) in \(f(p)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="">  [CF19]</a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>\(k\)-Cut:</b> Given an edge-weighted undirected graph \(G\) and an integer \(k\), can we remove a set of edges of weight \(\leq p\) so that G has at least \(k\) connected components. <br>
+<b>Algorithm:</b> 1.81-approximation in \(2^{O(k^2)}\cdot n^{O(1)}\) time, and \((1+\epsilon)\)-approximation in \((k/\epsilon)^{O(k)}\cdot n^{k+O(1)}\) time for every \(\epsilon>0\) <a href="">  [GLL18]</a> <br>
+<b>Lower Bound:</b> None <a href="">  []</a> <br>
+</li>
+
+<br>
+
+
+<li>
 <b>Problem:</b> <br>
 <b>Algorithm:</b> <a href="">  [Reference ]</a> <br>
 <b>Lower Bound:</b>  <a href="">  [Reference]</a> <br>
 </li>
 
 <br>
-
 </ul>
 
 
@@ -97,6 +114,9 @@
 <br>
 
 [FKN12] Moran Feldman, Guy Kortsarz, Zeev Nutov: <b>Improved approximation algorithms for Directed Steiner Forest.</b> J. Comput. Syst. Sci. 78(1): 279-292 (2012)
+<br>
+
+[GLL18] Anupam Gupta, Euiwoong Lee, Jason Li: <b>Faster Exact and Approximate Algorithms for k-Cut.</b> FOCS 2018: 113-123
 <br>
 
 [KOPST18] Eun Jung Kim, Sang-il Oum, Christophe Paul, Ignasi Sau, Dimitrios M. Thilikos: <b>An FPT 2-Approximation for Tree-Cut Decomposition.</b> Algorithmica 80(1): 116-135 (2018)
