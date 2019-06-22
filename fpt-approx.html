@@ -35,24 +35,24 @@
 
 <li>
 <b>Directed Odd Cycle Transversal:</b> Given a digraph \(G=(V,E)\) is there a set \(H\subseteq V\) of size \(\leq k\) such that \(G[V\setminus H]\) has no (directed) odd cycles<br>
-<b>Algorithm:</b>  2-approximation in \(2^{O(k^2)}\cdot n^{O(1)}\) time <a href="https://arxiv.org/abs/1704.04249">  [Reference]</a> <br>
-<b>Lower Bound:</b> There is a constant \(\epsilon>0\) such that there is no \((1+\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Parameterized Inapproximability Hypothesis (PIH) and FPT\(\neq\) W[1] <a href="https://arxiv.org/abs/1704.04249">  [Reference]</a> <br>
+<b>Algorithm:</b>  2-approximation in \(2^{O(k^2)}\cdot n^{O(1)}\) time <a href="">  [LRSZ17]</a> <br>
+<b>Lower Bound:</b> There is a constant \(\epsilon>0\) such that there is no \((1+\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Parameterized Inapproximability Hypothesis (PIH) and FPT\(\neq\) W[1] <a href="">  [LRSZ17]</a> <br>
 </li>
 
 <br>
 
 <li>
 <b>Directed Steiner Network:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ i\in [k]\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(s_i \leadsto t_i\) path for each \(i\in [k]\)<br>
-<b>Algorithm:</b> \(k^{1/2+\epsilon}\)-approximation in polynomial time for every \(\epsilon>0\) time <a href="https://dl.acm.org/citation.cfm?id=1921664">  [Reference 1]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0022000011000584">  [Reference 2]</a> <br>
+<b>Algorithm:</b> \(k^{1/2+\epsilon}\)-approximation in polynomial time for every \(\epsilon>0\) time <a href="">  [CEGS11, FKN12]</a> <br>
 <b>Lower Bound:</b> No \((k^{1/4-o(1)})\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="">  [DM18]</a> <br>
 </li>
 
 <br>
 
 <li>
-<b>Tree-cut width:</b> Is the tree-cut width of a given undirected graph \(\leq w\)? See <a href="https://www.sciencedirect.com/science/article/pii/S0095895614000914">  [Reference]</a> for a definition of tree-cut width.
+<b>Tree-cut width:</b> Is the tree-cut width of a given undirected graph \(\leq w\)? See <a href="">  [W15]</a> for a definition of tree-cut width.
 <br>
-<b>Algorithm:</b> \(2\)-approximation in \(2^{w^{2}\cdot \log w}\cdot n^{2}\) time <a href="https://link.springer.com/article/10.1007/s00453-016-0245-5">  [Reference 1]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0022000011000584">  [Reference 2]</a> <br>
+<b>Algorithm:</b> \(2\)-approximation in \(2^{w^{2}\cdot \log w}\cdot n^{2}\) time <a href="">  [KOPST18]</a> <br>
 <b>Lower Bound:</b> None! It is known that there is a (non-constructive) FPT algorithm for tree-cut width parameterized by \(w\)<br>
 </li>
 
@@ -83,7 +83,9 @@
 <div id="subtitle">
 <h4>REFERENCES</a> </h4>
 
+[CEGS11] Chandra Chekuri, Guy Even, Anupam Gupta, Danny Segev: <b>Set connectivity problems in undirected graphs and the directed steiner network problem.</b> ACM Trans. Algorithms 7(2): 18:1-18:17 (2011)
 
+<br>
 [CFM18] Rajesh Chitnis, Andreas Emil Feldmann, Pasin Manurangsi: <b>Parameterized Approximation Algorithms for Bidirected Steiner Network Problems.</b> ESA 2018: 20:1-20:16
 <br>
 
@@ -91,9 +93,24 @@
 
 <br>
 
+[FKN12] Moran Feldman, Guy Kortsarz, Zeev Nutov: <b>Improved approximation algorithms for Directed Steiner Forest.</b> J. Comput. Syst. Sci. 78(1): 279-292 (2012)
+
+<br>
+
+[KOPST18] Eun Jung Kim, Sang-il Oum, Christophe Paul, Ignasi Sau, Dimitrios M. Thilikos: <b>An FPT 2-Approximation for Tree-Cut Decomposition.</b> Algorithmica 80(1): 116-135 (2018)
+
+<br>
+
+[LRSZ17] Daniel Lokshtanov, M. S. Ramanujan, Saket Saurabh, Meirav Zehavi: <b>Parameterized Complexity and Approximability of Directed Odd Cycle Transversal.</b> CoRR abs/1704.04249 (2017)
+
+<br>
+
 [N13] Jesper Nederlof: <b>Fast Polynomial-Space Algorithms Using Inclusion-Exclusion.</b> Algorithmica 65(4): 868-884 (2013)
 
 <br>
+
+[W15] Paul Wollan: <b>The structure of graphs not admitting a fixed immersion.</b> J. Comb. Theory, Ser. B 110: 47-66 (2015)
+
 
 </div>
 
