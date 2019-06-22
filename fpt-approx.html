@@ -26,8 +26,8 @@
 <ul>
 
 <li>
-<b>Strongly Connected Steiner Subgraph:</b> Given a digraph \(G=(V,E)\) and a set of terminals \(T=\{t_1, t_2, \ldots, t_k\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(t_i \leadsto t_j\) path for each \(1\leq i\neq j\leq p\)<br>
-<b>Algorithm:</b>  2-approximation in \(3^{k}\cdot n^{O(1)}\) time <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-03898-8_11">  [Reference]</a> <br>
+<b>Strongly Connected Steiner Subgraph:</b> Given a digraph \(G=(V,E)\) and a set of terminals \(T=\{t_1, t_2, \ldots, t_k\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(t_i \leadsto t_j\) path for each \(1\leq i\neq j\leq k\)<br>
+<b>Algorithm:</b>  2-approximation in \(2^{k}\cdot n^{O(1)}\) time <a href="https://link.springer.com/article/10.1007/s00453-012-9630-x">  [Reference]</a> <br>
 <b>Lower Bound:</b> No \((2-\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="https://arxiv.org/abs/1707.06499">  [Reference]</a> <br>
 </li>
 
@@ -39,12 +39,16 @@
 <b>Lower Bound:</b> There is a constant \(\epsilon>0\) such that there is no \((1+\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Parameterized Inapproximability Hypothesis (PIH) and \(FPT\neq W[1]\) <a href="https://arxiv.org/abs/1704.04249">  [Reference]</a> <br>
 </li>
 
+<br>
 
 <li>
-<b>Strongly Connected Steiner Subgraph:</b> Given a digraph \(G=(V,E)\) and a set of terminals \(T=\{t_1, t_2, \ldots, t_k\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(t_i \leadsto t_j\) path for each \(1\leq i\neq j\leq p\)<br>
-<b>Algorithm:</b>  2-approximation in \(3^{k}\cdot n^{O(1)}\) time <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-03898-8_11">  [Reference]</a> <br>
-<b>Lower Bound:</b> No \((2-\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="https://arxiv.org/abs/1707.06499">  [Reference]</a> <br>
+<b>Directed Steiner Network:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ i\in [k]\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(s_i \leadsto t_i\) path for each \(i\in [k]\)<br>
+<b>Algorithm:</b> \(k^{1/2+\epsilon}\)-approximation in polynomial time for every \(\epsilon>0\) time <a href="https://dl.acm.org/citation.cfm?id=1921664">  [Reference 1]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0022000011000584">  [Reference 2]</a> <br>
+<b>Lower Bound:</b> No \((k^{1/4-o(1)})\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="https://arxiv.org/abs/1805.03867">  [Reference]</a> <br>
 </li>
+
+<br>
+
 
 
 </ul>
