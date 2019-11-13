@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>List of FPT+Approximation results</title>
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+</head>
+
+<body>
+
+<div id="toptitle">
+<h1>List of FPT+Approximation results </h1>
+<div id="subtitle">
+<h3>Please send any comments/corrections/updates to <a href="mailto:fptapprox@gmail.com">fptapprox@gmail.com</a> </h3>
+
+</div>
+</div>
+
+<hr>
+<br>
+
+
+
+<ul>
+
+<li>
+<b>Strongly Connected Steiner Subgraph:</b> Given a digraph \(G=(V,E)\) and a set of terminals \(T=\{t_1, t_2, \ldots, t_k\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(t_i \leadsto t_j\) path for each \(1\leq i\neq j\leq k\)<br>
+<b>Algorithm:</b>  2-approximation in \(2^{k}\cdot n^{O(1)}\) time <a href="">  [N13]</a> <br>
+<b>Lower Bound:</b> No \((2-\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="">  [CFM18]</a> <br>
+</li>
+
+<br>
+
+<li>
+<b>Directed Odd Cycle Transversal:</b> Given a digraph \(G=(V,E)\) is there a set \(H\subseteq V\) of size \(\leq k\) such that \(G[V\setminus H]\) has no (directed) odd cycles<br>
+<b>Algorithm:</b>  2-approximation in \(2^{O(k^2)}\cdot n^{O(1)}\) time <a href="">  [LRSZ17]</a> <br>
+<b>Lower Bound:</b> There is a constant \(\epsilon>0\) such that there is no \((1+\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Parameterized Inapproximability Hypothesis (PIH) and FPT\(\neq\) W[1] <a href="">  [LRSZ17]</a> <br>
+</li>
+
+<br>
+
+<li>
+<b>Directed Steiner Network:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ i\in [k]\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(s_i \leadsto t_i\) path for each \(i\in [k]\)<br>
+<b>Algorithm:</b> \(k^{1/2+\epsilon}\)-approximation in polynomial time for every \(\epsilon>0\) time <a href="">  [CEGS11, FKN12]</a> <br>
+<b>Lower Bound:</b> No \((k^{1/4-o(1)})\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="">  [DM18]</a> <br>
+</li>
+
+<br>
+
+<li>
+<b>Tree-cut width:</b> Is the tree-cut width of a given undirected graph \(\leq w\)? See <a href="">  [W15]</a> for a definition of tree-cut width.
+<br>
+<b>Algorithm:</b> \(2\)-approximation in \(2^{O(w^{2}\cdot \log w)}\cdot n^{2}\) time <a href="">  [KOPST18]</a> <br>
+<b>Lower Bound:</b> None! It is known that there is a (non-constructive) FPT algorithm for tree-cut width parameterized by \(w\)<br>
+</li>
+
+<br>
+
+<li>
+<b>Steiner Orientation:</b> Given a mixed graph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ i\in [k]\}\) is there an orientation of the undirected edges of \(G\) such that the resulting graph has an \(s_i \leadsto t_i\) path for each \(i\in [k]\)  <br>
+<b>Algorithm:</b> None! <br>
+<b>Lower Bound:</b> No \((19/20+\epsilon)\)-approximation (for any \(\epsilon>0\)) in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH, even if the input graph is <i>planar</i> <a href="">  [CSF19]</a> <br>
+</li>
+
+<br>
+
+<li>
+<b>Directed Multitcut with 4 pairs:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ 1\leq i\leq 4\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[V\setminus H]\) has no \(s_i \leadsto t_i\) path for each \(1\leq i\leq 4\) <br>
+<b>Algorithm:</b> \(2\)-approximation in \(2^{O(p^2)}\cdot n^{O(1)}\) time  <a href="">  [CF19]</a> <br>
+<b>Lower Bound:</b> No \((59/58-\epsilon)\)-approximation (for any \(\epsilon>0\)) in \(f(p)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="">  [CF19]</a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>\(k\)-Cut:</b> Given an edge-weighted undirected graph \(G\) and an integer \(k\), can we remove a set of edges of weight \(\leq p\) so that G has at least \(k\) connected components. <br>
+<b>Algorithm:</b> 1.81-approximation in \(2^{O(k^2)}\cdot n^{O(1)}\) time, and \((1+\epsilon)\)-approximation in \((k/\epsilon)^{O(k)}\cdot n^{k+O(1)}\) time for every \(\epsilon>0\) <a href="">  [GLL18]</a> <br>
+<b>Lower Bound:</b> None! <a href=""> </a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>\(k\)-Median:</b> Given a metric space \((V,d)\) with \(n\) points and clients at some of the points, the goal is to open \(k\) facilities such that the sum of distances from the clients to their closest facilities is minimized.<br>
+<b>Algorithm:</b> For every \(\epsilon>0\), there is a \((1+\frac{2}{e}+\epsilon)\)-approximation algorithm that runs in \(f(k,\epsilon)\cdot n^{O(1)}\) time. <a href="">  [CGKLL19]</a> <br>
+<b>Lower Bound:</b> No \((1+\frac{2}{e}-\epsilon)\)-approximation (for any \(\epsilon>0\)) in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH  <a href="">  [CGKLL19]</a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>\(k\)-Means:</b> Given a metric space \((V,d)\) with \(n\) points and clients at some of the points, the goal is to open \(k\) facilities such that the sum of squares distances from the clients to their closest facilities is minimized.<br>
+<b>Algorithm:</b> For every \(\epsilon>0\), there is a \((1+\frac{8}{e}+\epsilon)\)-approximation algorithm that runs in \(f(k,\epsilon)\cdot n^{O(1)}\) time. <a href="">  [CGKLL19]</a> <br>
+<b>Lower Bound:</b> No \((1+\frac{8}{e}-\epsilon)\)-approximation (for any \(\epsilon>0\)) in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH  <a href="">  [CGKLL19]</a> <br>
+</li>
+<br>
+
+
+<li>
+<b>Problem:</b> <br>
+<b>Algorithm:</b> <a href="">  [Reference ]</a> <br>
+<b>Lower Bound:</b>  <a href="">  [Reference]</a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>Problem:</b> <br>
+<b>Algorithm:</b> <a href="">  [Reference ]</a> <br>
+<b>Lower Bound:</b>  <a href="">  [Reference]</a> <br>
+</li>
+
+<br>
+
+
+<li>
+<b>Problem:</b> <br>
+<b>Algorithm:</b> <a href="">  [Reference ]</a> <br>
+<b>Lower Bound:</b>  <a href="">  [Reference]</a> <br>
+</li>
+
+<br>
+
+</ul>
+
+
+<hr>
+
+
+<div id="subtitle">
+<h4>REFERENCES</a> </h4>
+
+[CEGS11] Chandra Chekuri, Guy Even, Anupam Gupta, Danny Segev: <b>Set connectivity problems in undirected graphs and the directed steiner network problem.</b> ACM Trans. Algorithms 7(2): 18:1-18:17 (2011)
+<br>
+
+[CFM18] Rajesh Chitnis, Andreas Emil Feldmann, Pasin Manurangsi: <b>Parameterized Approximation Algorithms for Bidirected Steiner Network Problems.</b> ESA 2018: 20:1-20:16
+<br>
+
+[CF19] Rajesh Chitnis, Andreas Emil Feldmann: <b>FPT Inapproximability of Directed Cut and Connectivity Problems.</b> 2019<br>
+
+
+[CFS19] Rajesh Chitnis, Andreas Emil Feldmann, Ondrej Suchy: <b>A Tight Lower Bound for Planar Steiner Orientation.</b> Algorithmica 2019: 1-17
+<br>
+
+[CGKLL19] Vincent Cohen-Addad, Anupam Gupta, Amit Kumar, Euiwoong Lee, Jason Li: <b>Tight FPT Approximations for \(k\)-Median and \(k\)-Means.</b> ICALP 2019
+<br>
+
+[DM18] Irit Dinur, Pasin Manurangsi: <b>ETH-Hardness of Approximating 2-CSPs and Directed Steiner Network.</b> ITCS 2018: 36:1-36:20
+<br>
+
+[FKN12] Moran Feldman, Guy Kortsarz, Zeev Nutov: <b>Improved approximation algorithms for Directed Steiner Forest.</b> J. Comput. Syst. Sci. 78(1): 279-292 (2012)
+<br>
+
+[GLL18] Anupam Gupta, Euiwoong Lee, Jason Li: <b>Faster Exact and Approximate Algorithms for \(k\)-Cut.</b> FOCS 2018: 113-123
+<br>
+
+[KOPST18] Eun Jung Kim, Sang-il Oum, Christophe Paul, Ignasi Sau, Dimitrios M. Thilikos: <b>An FPT 2-Approximation for Tree-Cut Decomposition.</b> Algorithmica 80(1): 116-135 (2018)
+<br>
+
+[LRSZ17] Daniel Lokshtanov, M. S. Ramanujan, Saket Saurabh, Meirav Zehavi: <b>Parameterized Complexity and Approximability of Directed Odd Cycle Transversal.</b> CoRR abs/1704.04249 (2017)
+<br>
+
+[N13] Jesper Nederlof: <b>Fast Polynomial-Space Algorithms Using Inclusion-Exclusion.</b> Algorithmica 65(4): 868-884 (2013)
+<br>
+
+[W15] Paul Wollan: <b>The structure of graphs not admitting a fixed immersion.</b> J. Comb. Theory, Ser. B 110: 47-66 (2015)
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 
+- Capacitated k-means and clustering (Cohen-Addad and Li)
+- Mulitcut with unbounded number of terminal pairs
+- Pasin SOSA paper
+- FOCS paper
+- Pasin, karthik, Bundit for Set Cover, and results of Lin
+- ESA submission on some contraction problems
+- My bi-DSN and other results from ESA paper and new IPEC submission
+- fedor's ICML paper on PCA
+ -->
+
