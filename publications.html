@@ -3,39 +3,60 @@
 <title>Rajesh Chitnis</title>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="w3-colors-2017.css">
-<link rel="stylesheet" href="style.css">
-<a class="w3-red">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 250px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 
 
-</head>
+
+
 <body>
 
 
-<div class="w3-row w3-padding-32">
-
-<div class="w3-col l2 m1 w3-hide-small">
-<p></p>
+<div class="sidenav">
+  <a href="publications.html">Publications</a>
+  <a href="teaching.html">Teaching</a>
+  <a href="coauthors.html">Coauthors</a>
+  <a href="non-acad.html">Non-Academic</a>
+  <a href="contact.html">Contact</a>	
 </div>
-
-<div class="w3-bar w3-black">
-		<a href="index.html" class="w3-bar-item w3-button w3-text-white w3-mobile">About Me</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="publications.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Publications</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="cv.pdf" class="w3-bar-item w3-button w3-text-white w3-mobile">CV</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="teaching.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Teaching</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="coauthors.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Coauthors</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="non-acad.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Non-Academic</a>
-	</div> 
-
-<br>
-<br>
 
 <div id="toptitle">
 <h1>Homepage of Rajesh Chitnis </h1>
