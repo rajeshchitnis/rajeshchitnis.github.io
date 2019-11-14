@@ -4,44 +4,66 @@
 
 <title>Rajesh Chitnis</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="w3-colors-2017.css">
-<link rel="stylesheet" href="style.css">
-<a class="w3-red">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Five links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+
+
 </head>
+
+
 
 <body>
 
-<div class="w3-bar w3-black">
-		<a href="index.html" class="w3-bar-item w3-button w3-text-white w3-mobile">About Me</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="publications.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Publications</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="cv.pdf" class="w3-bar-item w3-button w3-text-white w3-mobile">CV</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="teaching.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Teaching</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="coauthors.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Coauthors</a>
-		<span style="display:inline-block; width: 1cm;"></span>
-		<a href="non-acad.html" class="w3-bar-item w3-button w3-text-white w3-mobile">Non-Academic</a>
-	</div> 
+ <h2>Homepage of Rajesh Chitnis</h2>
 
-<br>
-<br>
-
-
-
-<!--
-<div id="toptitle">
-
-<h1>Running </h1>
-<div id="subtitle">
-
-</div>
+<div class="navbar">
+  <a href="index.html">About Me</a>		
+  <a href="publications.html">Publications</a>
+  <a href="teaching.html">Teaching</a>
+  <a href="coauthors.html">Coauthors</a>
+  <a class="active" href="non-acad.html">Non-Academic</a>	
 </div>
--->
 
-<h1>Upcoming races</h1>
+<br>
+
+
+
+<h3>Upcoming races</h3>
 <p></p>
 <ul>
 
@@ -51,7 +73,7 @@
 </ul>
 
 
-<h1>Finished races</h1>
+<h3>Finished races</h3>
 <p></p>
 
 
@@ -82,7 +104,7 @@
 </table>
 
 
-<h1>Countries I have visited</h1>
+<h3>Countries I have visited</h3>
 
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
